@@ -1,14 +1,14 @@
 # TOPIC 1: Primitive data types
-name = "Anastasiia"  # String
-age = 21 # Integer
-teaching_experience = 2.5  # Float
-has_driver_license = False  # Boolean
-has_hobbies = True  # Boolean
+# name = "Anastasiia"  # str
+# age = 21 # int
+# teaching_experience = 2.5  # float
+# has_driver_license = False  # bool
+# has_hobbies = True  # bool
 
 # TOPIC 2: Subscript
 # print("I like reading books"[0])
 # hobby = "I like reading books"
-# print(hobby[0])
+# print(hobby[2:6])
 
 # TOPIC 3: Type error, type checking and type conversion
 # num_char = len(input("What is your name? "))
@@ -20,7 +20,7 @@ has_hobbies = True  # Boolean
 # print(int(teaching_experience), type(int(teaching_experience)))
 
 # TODO: Write a program that adds the digits in a 2 digit number. e.g. if the input was 35, then the output should be 3 + 5 = 8
-# NOTE: Do not change the code on line 24. Your program should work for different inputs. e.g. any two-digit number.
+# NOTE: Your program should work for different inputs. e.g. any two-digit number.
 
 # TOPIC 4: Mathematical operations
 # print(8 + 2)
@@ -51,7 +51,7 @@ has_hobbies = True  # Boolean
 # NOTE: It will take your current age as the input and output a message with our time left in this format: "You have _ weeks left until pension."
 
 # TODO: Kate needs a very simple tip calculator for whenever she goes to eat in a restaurant. In her country, it's usual to tip 15%.
-# NOTE. Output a message in this format: "The bill was _, the tip was _, and the total value _."
+# NOTE: Output a message in this format: "The bill was _, the tip was _, and the total value _."
 # Task 1. Calculate the tip. Create a variable called tip for this.
 # Task 2. Log a string to the console containing the bill value, the tip, and the final value (bill + tip).
 

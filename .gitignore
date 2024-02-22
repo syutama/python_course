@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+7. Functions
+Object Oriented Programming (OOP)
+
+
 # C extensions
 *.so
 

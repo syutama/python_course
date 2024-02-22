@@ -1,0 +1,16 @@
+We're not always going to be working with lists and using for loops. 
+Sometimes we might want to use a loop completely independent of a list.
+
+Good example of this is when Carl Gauss (picture #2), the German mathematician, When he was just a child (10 years old),
+his math teacher gave him an exercise that she probably thought would tie him up for it a little while.
+And the idea was to get him to add all of the numbers from 1 to 100. So 1 + 2 + 3 + 4 + 5, et cetera, all the way until a hundred.
+
+And even though she thought: "This would keep him busy for an hour or so, getting this young child to add up these numbers, and I can have some peace and quiet", but unfortunately he came back to her within two minutes and gave her the answer. 
+
+So how did he work it out? Well, here's actually a really smart kid and he figured out that if you flip the
+numbers around (picture #3), and you'll look at both of these two lines, you can see that 1 + 100 = 101, 2 + 99 = 101, 3 + 98 = 101.
+If you tie all of these numbers together, there's actually 50 pairs of 101. So he could simply just do 50 multiplied by 101 which is 5050.
+
+And that's how he figured out the answer.
+
+But we can actually outshine Gaus because we can do this calculation in lessthan a minute, just by writing a few lines of code.

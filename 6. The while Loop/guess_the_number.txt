@@ -1,0 +1,42 @@
+import random
+
+# Generate a random number between 1 and 100
+number_to_guess = random.randint(1, 100)
+attempts = 0
+max_attempts = 10
+
+print("Welcome to Guess the Number!")
+print("I've chosen a number between 1 and 100. Can you guess it?")
+print(f"You have {max_attempts} attempts. Enter 'exit' to quit the game.")
+
+while attempts < max_attempts:
+    user_input = input("Enter your guess: ")
+
+    # Allow the user to exit the game
+    if user_input.lower() == 'exit':
+        print("Thanks for playing. Goodbye!")
+        return
+
+    # Ensure the user inputs a number
+    if not user_input.isdigit():
+        print("Please enter a valid number.")
+        continue
+
+    guess = int(user_input)
+    attempts += 1
+
+    # Check the user's guess against the number
+    if guess < number_to_guess:
+        print("Too low.")
+    elif guess > number_to_guess:
+        print("Too high.")
+    else:
+        print(f"Correct! You guessed the number in {attempts} attempts.")
+        return
+
+    # Provide feedback on remaining attempts
+    if attempts < max_attempts:
+        print(f"You have {max_attempts - attempts} attempts left.")
+    else:
+        print(f"Sorry, you've run out of attempts. The number was {number_to_guess}.")
+
